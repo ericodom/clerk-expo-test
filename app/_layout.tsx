@@ -50,7 +50,7 @@ export default function RootLayout() {
 
 
 const CLERK_PUBLISHABLE_KEY =
-	'pk_test_c3dlZXQtc2NvcnBpb24tOTkuY2xlcmsuYWNjb3VudHMuZGV2JA';
+	'SOMETHING_LIKE_sk_test_4eC39HqLyjWDarjtT1zdp7dc';
   
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
