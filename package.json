@@ -4,21 +4,22 @@
   "version": "1.0.0",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "test": "jest --watchAll"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
+    "@clerk/clerk-expo": "1.0.0-beta.33",
     "@expo/vector-icons": "^14.0.0",
     "@react-navigation/native": "^6.0.2",
     "expo": "~50.0.11",
     "expo-font": "~11.10.3",
     "expo-linking": "~6.2.2",
     "expo-router": "~3.4.8",
+    "expo-secure-store": "^12.8.1",
     "expo-splash-screen": "~0.26.4",
     "expo-status-bar": "~1.11.1",
     "expo-system-ui": "~2.9.3",

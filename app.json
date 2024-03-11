@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.homecareintel.tei-mobile5"
     },
     "android": {
       "adaptiveIcon": {
